@@ -20,7 +20,7 @@ jobs:
           - os: macOS-latest
             arch: arm64
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Node.js
         uses: actions/setup-node@v3.4.0
         with:
@@ -67,7 +67,7 @@ jobs:
           arch: arm64
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Node.js
         uses: actions/setup-node@v3.4.0
         with:
